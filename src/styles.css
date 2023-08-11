@@ -33,6 +33,7 @@ li:first-letter {
   border: 1px solid;
   border-color: #d9dce0;
   border-radius: 10px;
+  background: #e7eaf6;
 }
 .overview {
   padding-bottom: 15px;
@@ -63,4 +64,8 @@ li:first-letter {
 .weather-temperature .active {
   color: black;
   cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
